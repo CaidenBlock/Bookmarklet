@@ -1,5 +1,5 @@
 var ting = prompt("Thing:");
-var censor = ["DICK", "FUCK", "SHIT", "ASS", "DICK", "PENIS"];
+var censor = ["DICK", "FUCK", "SHIT", "ASS", "DICK", "PENIS", "VAGINA"];
 var thing = ting.toUpperCase();
 if (thing=="GMAIL") window.open("https://gmail.com","_self");
 else if (thing=="PEARSON") window.open("https://accounts.google.com/o/saml2/initsso?idpid=C00t0cavg&spid=701197821690&forceauthn=false","_self");
@@ -11,6 +11,7 @@ else window.open("mailto:" + ID + "@d15.org?subject=Bookmark%20Thing&body=javasc
 }
 else if (thing=="Easter Egg") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="Creator") alert("Caiden Block made this!");
+else if (thing=="Radical") alert("Totally Tubular!");
 else if( thing.indexOf('CAIDEN') >= 0) alert("Caiden was here");
 else if( thing.indexOf('JOEY') >= 0) alert("Joey was here");
 else if(censor.some(v => v===thing))alert("Censored");
