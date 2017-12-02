@@ -6,18 +6,10 @@ else if (thing=="SHARE") {
 var ID = prompt("Type person's ID \nE.g. 'cblock700':");
 window.open("mailto:" + ID + "@d15.org?subject=Bookmark%20Thing&body=javascript:(function(d,u,s){s=d.createElement(\'script\');s.type=\'text\/javascript\';s.charset=\'utf-8\';s.src=u;d.body.appendChild(s)})(document,\'https:\/\/cdn.rawgit.com\/CaidenBlock\/Bookmarklet\/master\/Thing.js\')");
 }
-else if (thing=="SHELL") {
-javascript:
-var q = document.createElement('script');
-q.src = 'https://rawgit.com/CaidenBlock/Bookmarklet/master/shell.js';
-document.body.appendChild(q);
-void 0;
-}
+else if (thing=="Easter Egg") window.open("https://en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="DONGLES") alert("iPhone 7 has many Dongles");
 else if( thing.indexOf('CAIDEN') >= 0)alert("Caiden was here");
 else if( thing.indexOf('JOEY') >= 0)alert("Joey was here");
-else if( thing.indexOf('DICK') >= 0)alert("Censored");
-else if( thing.indexOf('FUCK') >= 0)alert("Censored");
-else if( thing.indexOf('SHIT') >= 0)alert("Censored");
-else if( thing.indexOf('ASS') >= 0)alert("Censored");
+var censor = ["DICK", "FUCK", "SHIT", "ASS", "DICK", "PENIS"];
+else if( thing.indexOf(censor) >= 0)alert("Censored");
 else alert(ting);
