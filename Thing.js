@@ -13,7 +13,7 @@ if( IDlc=="cblock700") alert("That was the example...\nWhy would you even put me
 else window.open("mailto:" + ID + "@d15.org?subject=Bookmark%20Thing&body=javascript:(function(d,u,s){s=d.createElement(\'script\');s.type=\'text\/javascript\';s.charset=\'utf-8\';s.src=u;d.body.appendChild(s)})(document,\'https:\/\/cdn.rawgit.com\/CaidenBlock\/Bookmarklet\/master\/Thing.js\')");
 }
 else if (thing=="EDIT") {
-  var edit = window.confirm("Edit?\nOK = ON\nCancel = OFF?");
+  var edit = window.confirm("Edit\n\nOK = ON\nCancel = OFF");
      if( edit==true) {document.body.contentEditable%20=%20'true';%20document.designMode='on';%20void%200}
      else {document.body.contentEditable%20=%20'false';%20document.designMode='false';%20void%200}
 }
