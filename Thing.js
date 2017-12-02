@@ -6,7 +6,7 @@ else if (thing=="SHARE") {
 var ID = prompt("Type person's ID \nE.g. 'cblock700':");
 window.open("mailto:" + ID + "@d15.org?subject=Bookmark%20Thing&body=javascript:(function(d,u,s){s=d.createElement(\'script\');s.type=\'text\/javascript\';s.charset=\'utf-8\';s.src=u;d.body.appendChild(s)})(document,\'https:\/\/cdn.rawgit.com\/CaidenBlock\/Bookmarklet\/master\/Thing.js\')");
 }
-else if (thing=="Easter Egg") window.open("https://en.wikipedia.org/wiki/Easter_egg_(media)");
+else if (thing=="Easter Egg") window.open("https:en.wikipedia.org/wiki/Easter_egg_\(media\)");
 else if (thing=="DONGLES") alert("iPhone 7 has many Dongles");
 else if( thing.indexOf('CAIDEN') >= 0)alert("Caiden was here");
 else if( thing.indexOf('JOEY') >= 0)alert("Joey was here");
