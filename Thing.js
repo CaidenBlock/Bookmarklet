@@ -17,10 +17,10 @@ else if (thing=="EDIT") {
      if( edit==true) {document.body.contentEditable = 'true'; document.designMode='on'; void 0}
      else {document.body.contentEditable = 'false'; document.designMode='false'; void 0}
 }
-else if (thing=="Breakfast") alert("Waffles");
-else if (thing=="Easter Egg") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
-else if (thing=="Creator") alert("Caiden Block made this!");
-else if (thing=="Radical") alert("Totally Tubular!");
+else if (thing=="BREAKFAST") alert("Waffles");
+else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
+else if (thing=="CREATOR") alert("Caiden Block made this!");
+else if (thing=="RADICAL") alert("Totally Tubular!");
 else if( thing.indexOf('CAIDEN') >= 0) alert("Caiden was here");
 else if( thing.indexOf('JOEY') >= 0) alert("Joey was here");
 else if(censor.some(v => v===thing))alert("Censored");
