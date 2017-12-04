@@ -17,9 +17,7 @@ else if (thing=="EDIT") {
      if( edit==true) {document.body.contentEditable = 'true'; document.designMode='on'; void 0}
      else {document.body.contentEditable = 'false'; document.designMode='false'; void 0}
 }
-else if (thing=="SHELL") {
-alert("Hello")
-}
+else if (thing=="Breakfast") alert("Waffles");
 else if (thing=="Easter Egg") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="Creator") alert("Caiden Block made this!");
 else if (thing=="Radical") alert("Totally Tubular!");
