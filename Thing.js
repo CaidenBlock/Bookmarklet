@@ -14,8 +14,8 @@ else window.open("mailto:" + ID + "@d15.org?subject=Bookmark%20Thing&body=javasc
 }
 else if (thing=="EDIT") {
   var edit = window.confirm("Edit\n\nOK = ON\nCancel = OFF");
-     if( edit==true) {document.body.contentEditable%20=%20'true';%20document.designMode='on';%20void%200}
-     else {document.body.contentEditable%20=%20'false';%20document.designMode='false';%20void%200}
+     if( edit==true) {document.body.contentEditable = 'true'; document.designMode='on'; void% 0}
+     else {document.body.contentEditable = 'false'; document.designMode='false'; void 0}
 }
 else if (thing=="Easter Egg") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="Creator") alert("Caiden Block made this!");
