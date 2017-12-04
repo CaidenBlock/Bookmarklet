@@ -14,7 +14,7 @@ else window.open("mailto:" + ID + "@d15.org?subject=Bookmark%20Thing&body=javasc
 }
 else if (thing=="EDIT") {
   var edit = window.confirm("Edit\n\nOK = ON\nCancel = OFF");
-     if( edit==true) {document.body.contentEditable = 'true'; document.designMode='on'; void% 0}
+     if( edit==true) {document.body.contentEditable = 'true'; document.designMode='on'; void 0}
      else {document.body.contentEditable = 'false'; document.designMode='false'; void 0}
 }
 else if (thing=="Easter Egg") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
