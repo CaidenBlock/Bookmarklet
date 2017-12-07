@@ -1,5 +1,5 @@
 var ting = prompt("Thing:");
-var censor = ["DICK", "FUCK", "SHIT", "ASS", "DICK", "PENIS", "FAGGOT"];
+var censor = ["FUCK", "SHIT", "ASS", "DICK", "PENIS", "FAGGOT"];
 var halias = ["HELP", "?"];
 var thing = ting.toUpperCase();
 if (thing=="GMAIL") window.open("https://gmail.com","_self");
