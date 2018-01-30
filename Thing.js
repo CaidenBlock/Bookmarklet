@@ -22,6 +22,7 @@ else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_eg
 else if (thing=="CREATOR") alert("Caiden Block made this!");
 else if (thing=="RADICAL") alert("Totally Tubular!");
 else if( thing.indexOf('CAIDEN') >= 0) alert("Caiden was here");
+else if( thing.indexOf('C@IDEN') >= 0) alert("Caiden was here");
 else if( thing.indexOf('JOEY') >= 0) alert("Joey was here");
 else if(censor.some(v => v===thing))alert("Censored");
 else if(halias.some(v => v===thing))alert("🅢🅘🅣🅔🅢\:\nGmail\nPearson\nSkyward\n\n🅕🅤🅝\:\nEdit\nYou can find the rest of the secrets");
