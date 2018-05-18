@@ -1,5 +1,5 @@
 var ting = prompt("Thing:");
-var censor = ["FUCK", "SHIT", "ASS", "DICK", "PENIS", "FAGGOT"];
+var censor = ["To-do"];
 var halias = ["HELP", "?"];
 var thing = ting.toUpperCase();
 if (thing=="GMAIL") window.open("https://gmail.com","_self");
@@ -23,7 +23,10 @@ else if (thing=="CREATOR") alert("Caiden Block made this!");
 else if (thing=="RADICAL") alert("Totally Tubular!");
 else if( thing.indexOf('CAIDEN') >= 0) alert("Caiden was here");
 else if( thing.indexOf('C@IDEN') >= 0) alert("Caiden was here");
+else if( thing.indexOf('C@ID3N') >= 0) alert("Caiden was here");
+else if( thing.indexOf('CAID3N') >= 0) alert("Caiden was here");
 else if( thing.indexOf('JOEY') >= 0) alert("Joey was here");
+else if( thing.indexOf('DIEGO') >= 0) alert("Diego was here");
 else if(censor.some(v => v===thing))alert("Censored");
 else if(halias.some(v => v===thing))alert("🅢🅘🅣🅔🅢\:\nGmail\nPearson\nSkyward\n\n🅕🅤🅝\:\nEdit\nYou can find the rest of the secrets");
 else alert(ting);
