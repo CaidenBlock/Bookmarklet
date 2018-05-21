@@ -40,6 +40,7 @@ else if (thing=="USERDEFINED") {
   void(thinglist);
 }
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
+else if (thing=="TODO") alert("Notepad\n Google form submit stuff\neverything");
 else if (thing=="CREATOR") alert("Caiden Block made this!");
 else if (thing=="impossible") alert("Actully this is impossible to get!");
 else if (thing=="PA55W0RDHACK123") alert("I hope you figured this out by looking at the code...");
