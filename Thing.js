@@ -45,7 +45,7 @@ else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_eg
 else if (thing=="CREATOR") alert("Caiden Block made this!");
 else if (thing=="impossible") alert("Actully this is impossible to get!");
 else if (thing=="PA55W0RDHACK123") alert("I hope you figured this out by looking at the code...");
-else if (thing=="SHOULDNTAPPEAR") alert("This message should not appear. Please contact me if it does".);
+else if (thing=="SHOULDNTAPPEAR") alert("This message should not appear. Please contact me if it does.");
 else if (thing=="RADICAL") alert("Totally Tubular!");
 else if( thing.indexOf('CAIDEN') >= 0) alert("Caiden was here");
 else if( thing.indexOf('C@IDEN') >= 0) alert("Caiden was here");
