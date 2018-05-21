@@ -32,7 +32,6 @@ else if (thing=="INSPECT") {
   })();
   void(firebug);
 }
-/*
 else if (thing=="USERDEFINED") { 
   var thinglist = document.createElement('script');
   thinglist.setAttribute('src', 'https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.txt');
@@ -40,7 +39,6 @@ else if (thing=="USERDEFINED") {
   alert(thinglist);
   void(thinglist);
 }
-*/
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="CREATOR") alert("Caiden Block made this!");
 else if (thing=="impossible") alert("Actully this is impossible to get!");
