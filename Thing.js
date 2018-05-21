@@ -18,6 +18,19 @@ else if (thing=="EDIT") {
      else {document.body.contentEditable = 'false'; document.designMode='false'; void 0}
 }
 else if (thing=="BREAKFAST") alert("Waffles");
+else if (thing=="FIREBUG") {
+var firebug = document.createElement('script');
+firebug.setAttribute('src', 'http://getfirebug.com/releases/lite/1.2/firebug-lite-compressed.js');
+document.body.appendChild(firebug);
+(function() {
+    if (window.firebug.version) {
+        firebug.init();
+    } else {
+        setTimeout(arguments.callee);
+    }
+})();
+void(firebug);
+}
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="CREATOR") alert("Caiden Block made this!");
 else if (thing=="RADICAL") alert("Totally Tubular!");
