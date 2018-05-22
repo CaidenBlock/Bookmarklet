@@ -1,9 +1,4 @@
-var entries = [
-  "Google",
-  "Google2",
-  "Google3",
-  "Say1"
-];
+var entries = ["Google", "Google2", "Google3", "Say1"];
 
 var operation = [
   "open",
