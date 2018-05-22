@@ -33,7 +33,7 @@ else if (thing=="INSPECT") {
   void(firebug);
 }
 else if (thing=="USERDEFINED") { 
-  var thinglist = document.createElement('text');
+  var thinglist = document.createElement('script');
   thinglist.setAttribute('src','https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js');
   document.body.appendChild(thinglist);
   alert(thinglist.entries[1]);
