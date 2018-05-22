@@ -1,5 +1,5 @@
-var entries = ["Google", "Google2", "Google3", "Say1"];
 var test = "Hello World";
+/*
 var operation = [
   "open",
   "open",
@@ -13,3 +13,6 @@ var newthing = [
   "www.google2.com",
   "Hello World"
 ];
+
+var entries = ["Google", "Google2", "Google3", "Say1"];
+*/
