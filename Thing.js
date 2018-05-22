@@ -34,9 +34,9 @@ else if (thing=="INSPECT") {
 }
 else if (thing=="USERDEFINED") { 
   var thinglist = document.createElement('text');
-  thinglist.setAttribute('https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js');
+  thinglist.setAttribute('src','https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js');
   document.body.appendChild(thinglist);
-  alert(thinglist);
+  alert(window.thinglist);
   void(thinglist);
 }
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
