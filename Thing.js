@@ -34,7 +34,7 @@ else if (thing=="INSPECT") {
 }
 else if (thing=="USERDEFINED") { 
   var thinglist = document.createElement('text');
-  thinglist.setAttribute('src', 'https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js');
+  thinglist.setAttribute('https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js');
   document.body.appendChild(thinglist);
   alert(thinglist);
   void(thinglist);
