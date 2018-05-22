@@ -32,7 +32,7 @@ else if (thing=="INSPECT") {
   })();
   void(firebug);
 }
-else if (thing=="test2") { 
+else if (thing=="TEST2") { 
   var thinglist = document.createElement('script');
   thinglist.src = 'https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js';
   document.body.appendChild(thinglist);
