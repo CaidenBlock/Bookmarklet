@@ -1,5 +1,20 @@
-Google open www.google.com
-Google2 open www.google2.com
-Google3 open www.google3.com
-Google4 open www.google4.com
-Say1 say Saidth1
+var entries = [
+  "Google",
+  "Google2",
+  "Google3",
+  "Say1"
+];
+
+var operation = [
+  "open",
+  "open",
+  "open",
+  "say"
+];
+
+var newthing = [
+  "www.google.com",
+  "www.google1.com",
+  "www.google2.com",
+  "Hello World"
+];
