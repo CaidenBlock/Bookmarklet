@@ -37,6 +37,7 @@ else if (thing=="TEST2") {
   thinglist.src = 'https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js';
   document.body.appendChild(thinglist);
   alert(thinglist.test);
+  alert("test");
   alert(test);
 }
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
