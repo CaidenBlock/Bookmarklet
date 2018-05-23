@@ -36,9 +36,9 @@ else if (thing=="TEST2") {
   var thinglist = document.createElement('script');
   thinglist.src = 'https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js';
   document.body.appendChild(thinglist);
-  alert(test);
-  alert(entries[0]);
-  alert(entries[1]);
+  var customid = prompt("Custom ID:");
+  alert(entries[customid] opereration[customid] newthing[customid]);
+  
 }
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="TODO") alert("Notepad\n Google form submit stuff\neverything");
