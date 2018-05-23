@@ -38,7 +38,7 @@ else if (thing=="TEST2") {
   document.body.appendChild(thinglist);
   var customid = prompt("Custom ID:");
   alert("entry: " + entries[customid] + " operation: " + operation[customid] + " thing: " + newthing[customid]);
-  //if (operation[customid]=="open" 
+  //if (operation[customid]=="open") window.open(newthing[customid])
 }
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
 else if (thing=="TODO") alert("Notepad\n Google form submit stuff\neverything");
