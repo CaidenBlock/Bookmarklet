@@ -1,21 +1,20 @@
 var entries = [
-  "Google",
+  "Classroom",
   "Google2",
   "Google3",
   "Say1"
 ];
+
 var operation = [
   "open",
   "open",
   "open",
   "say"
 ];
+
 var newthing = [
-  "www.google.com",
+  "https://classroom.google.com/h",
   "www.google1.com",
   "www.google2.com",
   "Hello World"
 ];
-var test = "Hello World";
-
-
