@@ -37,12 +37,12 @@ else if (thing=="TEST2") {
   thinglist.src = 'https://rawgit.com/CaidenBlock/Bookmarklet/master/ThingEntries.js';
   document.body.appendChild(thinglist);
   var customid = prompt("Custom ID:");
-  if (operation[customid]=="open") window.open(newthing[customid],'_self');
-  else if (operation[customid]=="say") alert(newthing[customid]);
-  //alert("entry: " + entries[customid] + " operation: " + operation[customid] + " thing: " + newthing[customid]);
+    if (operation[customid]=="open") window.open(newthing[customid],'_self');
+    else if (operation[customid]=="say") alert(newthing[customid]);
+  else alert("entry: " + entries[customid] + " operation: " + operation[customid] + " thing: " + newthing[customid]);
 }
 else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
-else if (thing=="TODO") alert("Notepad\n Google form submit stuff\neverything");
+else if (thing=="TODO") alert("Notepad\n Google form submit stuff\nMake Custom Things work.\neverything");
 else if (thing=="CREATOR") alert("Caiden Block made this!");
 else if (thing=="impossible") alert("Actully this is impossible to get!");
 else if (thing=="PA55W0RDHACK123") alert("I hope you figured this out by looking at the code...");
