@@ -68,6 +68,7 @@ else if (thing=="TEST") {
 //NEW!!!
 else if (thing=="NEW") {
     alert("Sorry, this feature is not avalible yet);
+          }
 
 else if (thing=="UPDATE") alert("1.9.9-beta-r3.1\nThings are about to happen\nBe Prepared\n\nAdded Groundwork for JS-Page.");
 
