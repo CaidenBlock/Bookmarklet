@@ -1,3 +1,9 @@
+//Sets initial vars
+var halias = ["HELP", "?"];
+var caiden = ["qwe", "asd", "hi"];
+var halias = ["HELP", "?"];
+
+
 //Makes initial prompt
 var ting = prompt("Thing:");
 
@@ -11,7 +17,7 @@ if (thing=="GMAIL") window.open("https://gmail.com","_self");
 //Opens Skyward
 else if (thing=="SKYWARD") window.open("https://skyward.iscorp.com/scripts/wsisa.dll/WService=wsedumchenryil/seplog01.w","_self");
 
-//Opens this document
+//Opens this.
 else if (thing=="GITHUB") window.open("https://github.com/CaidenBlock/Bookmarklet/edit/master/Thing.js","_self");
 
 //Opens Pearson Realize
@@ -58,12 +64,16 @@ else if (thing=="TEST") {
     else if (operation[customid]=="say") alert(newthing[customid]);
   else alert("entry: " + entries[customid] + " operation: " + operation[customid] + " thing: " + newthing[customid]);
 }
-else if (thing=="UPDATE") alert("1.9.9-beta\nThings are about to happen\nBe Prepared");
+
+//NEW!!!
+else if (thing=="NEW") {
+    alert("Sorry, this feature is not avalible yet);
+
+else if (thing=="UPDATE") alert("1.9.9-beta-r3.1\nThings are about to happen\nBe Prepared\n\nAdded Groundwork for JS-Page.");
 
 //OLD STUFF
 
 //var censor = ["To-do"];
-//var halias = ["HELP", "?"];
 //else if (thing=="TEST") document.write("<b>You're Harry, Wizard<b>");
 //else if (thing=="BREAKFAST") alert("Waffles");
 //else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
