@@ -35,8 +35,8 @@ else window.open("mailto:" + ID + "@d15.org?subject=Bookmark%20Thing&body=javasc
 //EDIT PAGE
 else if (thing=="EDIT") {
   var edit = window.confirm("Edit\n\nOK = ON\nCancel = OFF");
-     if( edit==true) {document.body.contentEditable = 'true'; document.designMode='on'; void 0}
-     else {document.body.contentEditable = 'false'; document.designMode='false'; void 0}
+     if( edit==true) {document.body.contentEditable = 'true'; document.designMode='on'; void 0;}
+     else {document.body.contentEditable = 'false'; document.designMode='false'; void 0;}
 }
 
 //FIREBUG LITE
@@ -67,7 +67,7 @@ else if (thing=="TEST") {
 
 //NEW!!!
 else if (thing=="NEW") {
-    alert("Sorry, this feature is not avalible yet);
+    alert("Sorry, this feature is not avalible yet");
           }
 
 else if (thing=="UPDATE") alert("1.9.9-beta-r3.1\nThings are about to happen\nBe Prepared\n\nAdded Groundwork for JS-Page.");
@@ -99,3 +99,4 @@ else if( thing.indexOf('EDWARD') >= 0) alert("Tyler wasn't here.");
 //else if(halias.some(v => v===thing))alert("🅢🅘🅣🅔🅢\:\nGmail\nPearson\nSkyward\n\n🅕🅤🅝\:\nEdit\nInspect\nYou can find the rest of the secrets");
 else alert(ting);
 
+//https://jshint.com/ to check syntax
