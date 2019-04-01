@@ -75,28 +75,26 @@ else if (thing=="UPDATE") alert("1.9.9-beta-r3.1\nThings are about to happen\nBe
 //OLD STUFF
 
 //var censor = ["To-do"];
-//else if (thing=="TEST") document.write("<b>You're Harry, Wizard<b>");
-//else if (thing=="BREAKFAST") alert("Waffles");
-//else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
-//else if (thing=="TODO") alert("Notepad\n Google form submit stuff\nMake Custom Things work.\neverything");
-//else if (thing=="CREATOR") alert("Caiden Block made this!");
-//else if (thing=="impossible") alert("Actully this is impossible to get!");
-//else if (thing=="PA55W0RDHACK123") alert("I hope you figured this out by looking at the code...");
-//else if (thing=="SHOULDNTAPPEAR") alert("This message should not appear. Please contact me if it does.");
-//else if (thing=="RADICAL") alert("Totally Tubular!");
-//else if( thing.indexOf('C@IDEN') >= 0) alert("Caiden was here.");
-//else if( thing.indexOf('C@ID3N') >= 0) alert("Caiden was here.");
-//else if( thing.indexOf('CAID3N') >= 0) alert("Caiden was here.");
+
 //else if(censor.some(v => v===thing))alert("Censored");
+
+//Simple Text stuff.
+
+//Names
 
 else if( thing.indexOf('CAIDEN') >= 0) alert("Caiden was here.");
 else if( thing.indexOf('JOEY') >= 0) alert("Joey was here.");
 else if( thing.indexOf('DIEGO') >= 0) alert("Diego was here.");
 else if( thing.indexOf('LANDON') >= 0) alert("Landon wasn't here.");
 else if( thing.indexOf('TYLER') >= 0) alert("Tyler wasn't here.");
-else if( thing.indexOf('EDWARD') >= 0) alert("Tyler wasn't here.");
+else if( thing.indexOf('NAME') >= 0) alert("We don't allow names here.");
+
+//Other
+else if (thing=="EASTER EGG") window.open("https:en.wikipedia.org/wiki/Easter_egg_(media)");
+else if (thing=="TODO") alert("Notepad\n Google form submit stuff\nMake Custom Things work.\neverything");
+else if (thing=="CREATOR") alert("Caiden Block made this!");
 
 //else if(halias.some(v => v===thing))alert("🅢🅘🅣🅔🅢\:\nGmail\nPearson\nSkyward\n\n🅕🅤🅝\:\nEdit\nInspect\nYou can find the rest of the secrets");
 else alert(ting);
 
-//https://jshint.com/ to check syntax
+//https://jshint.com/ to check syntax.
